@@ -16,7 +16,7 @@
     "biometrics": true,
     "secureStorage": true,
     "healthkit": true,
-    "iap": true,
+    "iap": false,
     "share": true,
     "print": true,
     "clipboard": true,
