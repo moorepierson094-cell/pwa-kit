@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>PWAKit</string>
+	<string>Clear Gains</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>PWAKit</string>
+	<string>Clear Gains</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -40,17 +40,17 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Access your camera for photos and video</string>
+	<string>Clear Gains uses your camera to scan food, products, and barcodes.</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Use Face ID to authenticate</string>
+	<string>Use Face ID to securely log into Clear Gains.</string>
 	<key>NSHealthShareUsageDescription</key>
-	<string>Read health data to display your activity and wellness information</string>
+	<string>Clear Gains reads your steps, heart rate, and weight to personalize your coaching and insights.</string>
 	<key>NSHealthUpdateUsageDescription</key>
-	<string>Save workout data to the Health app</string>
+	<string>Clear Gains may save weight updates back to your Health app.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Access your location for nearby features and location-based services</string>
+	<string>Clear Gains uses your location for nearby gym and nutrition features.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Access your microphone for audio recording</string>
+	<string>Clear Gains uses your microphone for voice input to the AI coach.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -80,7 +80,7 @@
 	</array>
 	<key>WKAppBoundDomains</key>
 	<array>
-		<string>pwakit-example.eddmann.workers.dev</string>
+		<string>cleargains.base44.app</string>
 	</array>
 </dict>
 </plist>
