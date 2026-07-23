@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "app": {
+    "name": "Clear Gains",
+    "bundleId": "com.piersonmoore.cleargains",
+    "startUrl": "https://cleargains.base44.app"
+  },
+  "origins": {
+    "allowed": ["cleargains.base44.app"],
+    "auth": ["accounts.google.com"],
+    "external": []
+  },
+  "features": {
+    "notifications": true,
+    "haptics": true,
+    "biometrics": true,
+    "secureStorage": true,
+    "healthkit": true,
+    "iap": true,
+    "share": true,
+    "print": true,
+    "clipboard": true,
+    "cameraPermission": true,
+    "microphonePermission": true,
+    "locationPermission": true
+  },
+  "appearance": {
+    "displayMode": "standalone",
+    "pullToRefresh": false,
+    "statusBarStyle": "adaptive",
+    "orientationLock": "any",
+    "backgroundColor": "#211C15",
+    "themeColor": "#C1592F"
+  },
+  "notifications": {
+    "provider": "apns"
+  }
+}
